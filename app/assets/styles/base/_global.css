@@ -1,0 +1,21 @@
+/*
+ * Global css styles
+ */
+
+* {
+	box-sizing: border-box; /* Makes the elements width include the border and padding. */
+}
+
+body {
+	font-family: 'Roboto', 'Open Sans',sans-serif;
+	/* "margin 0px;" is handeled by the normalize.css library */
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: black;
+}

@@ -1,0 +1,18 @@
+/*
+ * Generic content container
+ */
+
+.generic-content-container {
+
+	p {
+		line-height: ;
+		font-size: ;
+		margin: ;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	p a {
+		font-weight: ;
+	}
+
+}
