@@ -27,22 +27,21 @@
 8.  Congratulations, you set up git and github with node.js and gulp!
 
 ## Connect to and download this repository (One time per repository)
-1.  Ask the host of this repository to add you as a developer on github (not if this is the template-website repository).
+1.  Ask the host of this repository to add you as a developer on github.
 2.  Create a folder somewhere on your computer where you would like to store the project when downloaded.
 3.  Do not put the folder in onedrive, google filestream, dropbox etc.. It does work, but automation is MUCH slower.
 4.  Navigate to the folder and copy the entire path to it.
 5.  Run: 'cd thePathYouCopied'. To change directory into your desired folder. You can also type 'cd ' and drag the folder on top of the commandline and hit enter to do this.
 6.  Run: 'git init' to tell git that this is a project folder. (You should see '(master)' next to the path to the folder.
 7.  When you are added as developer, go to this repository and click the green 'Clone or download' button.
-8.  Copy the text you see in the box and run this command: 'git remote add origin theTextYouCopied'. You might be asked to log in. If this is the template-wesite repo, use this comand instead: 'git clone theTextYouColied'. 
+8.  Copy the text you see in the box and run this command: 'git remote add origin theTextYouCopied'. You might be asked to log in.
 9.  Now you have told git that this repository is where git should download and upload code to/from and that this folder is where to copy it to/from.
-10. Run 'git pull origin master' to download the files from 'origin' (this repository) and download the 'master' branch (the default branch that holds all the main files)(This step is not needed if you used the 'git clone' command).
-11. If you folow these instuctions directly from the template-website repository and not from your project repository, you do not have permission to push back up to this repo, run: 'git remote set-url origin yourRepoUrl' to switch git to connect to your own repository.
-12. Run: 'npm install' to automatically download all the packages needed for automation in this repository. (This might take a while)
-13. Open the project folder in your favourite editor (brackets, sublimetext, notepad++ etc...) And open the app folder.
-14. The app folder is where you will write code.
-15. First time you push changes to a new origin use 'git push -u origin mater'
-16. Congratulations, you have sucessfully connected and downloaded the repository!
+10. Run 'git pull origin master' to download the files from 'origin' (this repository) and download the 'master' branch (the default branch that holds all the main files).
+11. Run: 'npm install' to automatically download all the packages needed for automation in this repository. (This might take a while)
+12. Open the project folder in your favourite editor (brackets, sublimetext, notepad++ etc...) And open the app folder.
+13. The app folder is where you will write code.
+14. First time you push changes back up to a repository, you need to use 'git push -u origin master' (see "How to use git" section)
+15. Congratulations, you have sucessfully connected and downloaded the repository!
 
 ## How to use git
 Git is a version controll system that enables possibility for remote repositories (github). This means that you can edit code and easily restore old versions of your code if you mess up anything. It also makes it easier to collaborate with others using github. Two people can work on different parts of a project and merge the changes together on github.
@@ -215,3 +214,8 @@ The code above will compile into:
 
 3.  Always style with the smallest screens in mind first and use media queries (mixins) to ajust for larger
 	screens.
+
+
+## Font
+We will use this font for the website
+<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap" rel="stylesheet">
