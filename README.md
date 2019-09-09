@@ -106,6 +106,10 @@ When ```gulp watch``` is running and we save a css or jecascript file, the syste
 
 NB! Allways beginn a moduel filename with '_'
 
+## Ecma Script 2015 ++
+In this repository you can write ES 2015 and above since we use 'babel' to convert new javascript syntax to old syntax.
+See more here: https://www.w3schools.com/js/js_es5.asp
+
 ## CSS extras
 In this repository, you have the option to write some 'PostCSS'. This is a few CSS extras that makes css faster to write. These automatically compile down to normal css every time yo save a file.
 
@@ -217,5 +221,7 @@ The code above will compile into:
 
 
 ## Font
-We will use this font for the website
+We will use this font for the website headings:
+```html
 <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+```
