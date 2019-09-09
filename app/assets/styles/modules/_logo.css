@@ -1,0 +1,24 @@
+/*
+ * Logo
+ */
+
+.logo {
+	display: inline-block;
+	height: 70px;
+	width: auto;
+	margin: 0px 20px;
+
+
+	&__image {
+		height: 30px;
+		width: auto;
+		position: relative;
+		top: 47%;
+		transform: translateY(-50%);
+	}
+
+	&--no-l-margin {
+		margin-left: 0px;
+	}
+
+}

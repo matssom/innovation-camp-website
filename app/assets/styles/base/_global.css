@@ -1,3 +1,14 @@
+/* ----------------------------------------------------------------- */
+/* ------EVERYTHING WRITTEN BEYOND THIS POINT IS WRITTEN BY:-------- */
+/* ----------------------------------------------------------------- */
+/* ----------Erik Sommer-------------------------------------------- */
+/* ----------Adrian Tokle------------------------------------------- */
+/* ----------Mats Sommervold---------------------------------------- */
+/* ----------------------------------------------------------------- */
+
+/* We decided to use the BEM methodology for naming and selecting elements */
+/* Se more at: "https://en.bem.info/methodology/quick-start/" */
+
 /*
  * Global css styles
  */
@@ -7,7 +18,7 @@
 }
 
 body {
-	font-family: 'Roboto', 'Open Sans',sans-serif;
+	font-family: 'PT Sans Caption', 'Open Sans',sans-serif;
 	/* "margin 0px;" is handeled by the normalize.css library */
 }
 

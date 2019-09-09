@@ -1,6 +1,19 @@
+/* !!! - We decided to include a css library that tries to
+ *       normalize wierd css querks in different browsers to give
+ *       users of different browsers and the developers the best 
+ *       possible experience.
+ *
+ * !!! - To view code written by: Erik Sommer, Adrian Tokle and Mats Sommervold,
+ *       please view line 361.
+ */
+
 @import "normalize.css";
 @import "base/_variables";
 @import "base/_global";
 @import "base/_mixins";
 @import "modules/_generic-content-container";
+@import "modules/_wrapper";
+@import "modules/_nav";
+@import "modules/_logo";
+@import "modules/_button";
 

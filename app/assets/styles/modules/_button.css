@@ -1,0 +1,34 @@
+/*
+ * Button
+ */
+
+.button {
+	display: inline-block;
+	height: 40px;
+	width: auto;
+	border: 2px solid $mainBlue;
+	margin: 15px 20px;
+	color: $mainBlue;
+	text-decoration: none;
+	padding: 0px 20px;
+	line-height: 36px;
+	font-weight: 700;
+
+	&--no-r-margin {
+		margin-right: 0px;
+	}
+
+	&--hidden-at-small {
+		display: none;
+
+		@mixin atMedium {
+			display: inline-block;
+		}
+
+	}
+
+	&--filled {
+		background-color: $mainBlue;
+		color: white;
+	}
+}
