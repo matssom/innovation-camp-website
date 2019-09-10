@@ -18,7 +18,8 @@
 	&__textbox {
 		background-color: white;
 		position: static;
-		width: 100%;
+		max-width: 360px;
+		margin: 0 auto;
 		padding: 20px 0px;
 		bottom: 18px;
 	}
