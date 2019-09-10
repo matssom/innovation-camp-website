@@ -23,3 +23,10 @@
 		display: table;
 	}
 }
+
+@define-mixin clearAbsolute {
+	&::after {
+		content: "";
+		top: 100vh;
+	}
+}

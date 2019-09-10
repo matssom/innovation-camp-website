@@ -16,4 +16,8 @@
 @import "modules/_nav";
 @import "modules/_logo";
 @import "modules/_button";
+@import "modules/_banner";
+@import "modules/_page-section";
+@import "modules/_heading";
+@import "modules/_flex";
 

@@ -3,11 +3,11 @@
  */
 
 .nav {
-	background-color: #fff;
-	opacity: .8;
+	background-color: rgba(255,255,255,.8);
 	font-size: 1.25rem;
 	width: 100%;
 	position: fixed;
+	z-index: 1;
 
 	&__links {
 		display: none;
@@ -25,14 +25,16 @@
 		text-decoration: none;
 		height: 100%;
 		margin: 0px;
-		padding: 0px 20px;
+		padding: 0px 16px;
 		line-height: 70px;
+		transition: all .1s linear;
 
 	}
 
 	&__link:hover {
 		color: $mainRed;
 		text-decoration: none;
+		transition: all .1s linear;
 	}
 
 	&__link:visited {
@@ -43,6 +45,7 @@
 	&__link--active {
 		color: $mainRed;
 		text-decoration: none;
+
 	}
 
 	&__menu-icon {

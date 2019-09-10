@@ -1,0 +1,15 @@
+.page-section {
+	padding: 30px 0px;
+
+	&--red {
+		background-color: $mainRed;
+	}
+
+	@mixin atMedium {
+		padding: 60px 0px;
+	}
+
+	@mixin atLarge {
+		padding: 100px 0px;
+	}
+}

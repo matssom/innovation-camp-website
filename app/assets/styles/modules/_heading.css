@@ -1,0 +1,39 @@
+.heading {
+	color: $mainBlue;
+	font-size: 1.6rem;
+	font-weight: 700;
+
+	&--white {
+		color: white;
+	}
+
+	&--inline {
+		display: block;
+	}
+
+	&--center {
+		margin: 0px;
+		text-align: center;
+	}
+	
+	@mixin atMedium {
+		font-size: 2.2rem;
+	}
+	
+	@mixin atLarge {
+		font-size: 3rem;
+	}
+
+	&--large {
+		font-size: 3rem;
+
+		@mixin atMedium {
+			font-size: 4rem;
+		}
+		
+		@mixin atLarge {
+			font-size: 6rem;
+		}
+		
+	}
+}
