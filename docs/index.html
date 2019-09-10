@@ -8,7 +8,7 @@
 	<title>Voice - Give children a voice</title>
 
 	<!-- Stylesheet link -->
-	<link rel="stylesheet" href="assets/styles/styles-f6dfe3caba.css"/>
+	<link rel="stylesheet" href="assets/styles/styles-ded537f9c2.css"/>
 
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&display=swap" rel="stylesheet">
@@ -53,7 +53,27 @@
 	</nav>
 
 	<div class="banner">
-		<img src="assets/images/banner--large.jpg" alt="Children looking at the camera. Photo by bennett tobias on Unsplash" class="banner__img">
+		<!--<img src="assets/images/banner--large.jpg" alt="Children looking at the camera. Photo by bennett tobias on Unsplash" class="banner__img">-->
+		<picture class="banner__img">
+			<source srcset="assets/images/banner--huge--low-dpi.jpg 1081w,
+							assets/images/banner--huge.jpg 2162w,
+							assets/images/banner--huge--hi-dpi.jpg 4324w" 
+					media="(min-width: 1400px)">
+			<source srcset="assets/images/banner--large--low-dpi.jpg 555w,
+							assets/images/banner--large.jpg 1110w,
+							assets/images/banner--large--hi-dpi.jpg 2220w" 
+					media="(min-width: 900px)">
+			<source srcset="assets/images/banner--medium--low-dpi.jpg 442w, 
+							assets/images/banner--medium.jpg 885w,
+							assets/images/banner--medium--hi-dpi.jpg 1769w" 
+					media="(min-width: 600px)">
+			<img 	sizes="100vw"
+					srcset="assets/images/banner--small--low-dpi.jpg 430w, 
+							assets/images/banner--small.jpg 861w,
+							assets/images/banner--small--hi-dpi.jpg 1722w" 
+					alt="Children looking at the camera. Photo by bennett tobias on Unsplash" 
+					class="image--block">
+		</picture>
 		<div class="wrapper wrapper--large">
 			<div class="banner__textbox">
 				<div class="flex flex--vertical-center">
@@ -91,7 +111,21 @@
                     <p>We will also run a tournament-style contest during the event. In this contest the goal is to have the best idea or solution regarding an environmental issue. Any of the attending children can be a contestant, and the contestants compete by presenting their idea in front of jury and/or an audience. The best in the locals will move on to nationals and then internationals and finally to the finals.</p>
                     <p><strong>The winner and runner-ups will all recieve an oppurtunity to make their idea a reality.</strong></p>
 				</div>
-				<img src="assets/images/teen--large.jpg" alt="A teen looking at the camera" class="image image--l-margin image--w300 image--no-stretch-on-flex">
+				<picture class="image image--l-margin image--no-stretch-on-flex">
+					<source srcset="assets/images/teen--large--low-dpi.jpg 468w,
+									assets/images/teen--large.jpg 936w" 
+									media="(min-width: 900px)">
+					<source srcset="assets/images/teen--medium--low-dpi.jpg 468w, 
+									assets/images/teen--medium.jpg 936w" 
+									media="(min-width: 600px)">
+					<img 	sizes=" (max-width: 599px) 100vw,
+									(min-width: 600px) 100vw,
+									(min-width: 900px) 300px"
+							srcset="assets/images/teen--small--low-dpi.jpg 468w, 
+									assets/images/teen--small.jpg 936w" 
+							alt="A teen looking at the camera" 
+							class="image image--w300">
+				</picture>
 			</div>
 		</div>
 	</div>
