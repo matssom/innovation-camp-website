@@ -1,0 +1,48 @@
+/*
+ * ---------------------- Footer ----------------------
+ */
+
+.footer {
+	
+	&__group {
+		display: block;
+	}
+
+	&__group--clearfix {
+		@mixin clearfix;
+	}
+
+	&__text {
+		color: $secondBlue;
+		display: inline-block;
+		line-height: 30px;
+		font-size: 1rem;
+		margin: 1rem .8rem;
+		float: left;
+	}
+	
+	&__text--block {
+		color: $secondBlue;
+		line-height: 1.5rem;
+		font-size: 1rem;
+		margin: 0;
+	}
+
+	&__section {
+		padding: 20px;
+
+		@mixin atMedium2 {
+			border-right: 1px dashed $blackGray;
+			border-left: 1px dashed $blackGray;
+				
+			&:first-child {
+				border-left: none;
+			}
+
+			&:last-child {
+				border-right: none;
+			}
+		}
+
+	}
+}

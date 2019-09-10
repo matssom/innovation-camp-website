@@ -37,11 +37,6 @@
 		transition: all .1s linear;
 	}
 
-	&__link:visited {
-		color: $mainBlue;
-		text-decoration: none;
-	}
-
 	&__link--active {
 		color: $mainRed;
 		text-decoration: none;
@@ -62,7 +57,7 @@
 		transform: translateY(-50%);
 	}
 
-	@mixin atMedium {
+	@mixin atDesktopMenu {
 		
 		&__links {
 			display: inline-block;

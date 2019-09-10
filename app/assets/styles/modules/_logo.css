@@ -4,17 +4,24 @@
 
 .logo {
 	display: inline-block;
-	height: 70px;
-	width: auto;
+	height: auto;
+	width: 100px;
 	margin: 0px 20px;
 
 
 	&__image {
 		height: 30px;
-		width: auto;
+	}
+
+	&__image--vertical-center {
 		position: relative;
 		top: 47%;
 		transform: translateY(-50%);
+	}
+
+	&--center {
+		margin: 0px auto;
+		display: block;
 	}
 
 	&--no-l-margin {

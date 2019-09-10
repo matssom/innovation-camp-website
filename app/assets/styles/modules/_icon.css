@@ -1,0 +1,10 @@
+/*
+ * ---------------------- Icon ----------------------
+ */
+
+ .icon {
+ 	display: inline-block;
+ 	width: 30px;
+ 	margin: 1rem 0;
+ 	float: left;
+ }

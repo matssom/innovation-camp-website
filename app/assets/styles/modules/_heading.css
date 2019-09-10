@@ -6,6 +6,8 @@
 	color: $mainBlue;
 	font-size: 1.6rem;
 	font-weight: 700;
+	margin: 0px;
+	font-family: 'PT Sans Caption';
 
 	&--white {
 		color: white;
@@ -15,13 +17,21 @@
 		color: $mainRed;
 	}
 
-	&--inline {
-		display: block;
+	&--second-blue {
+		color: $secondBlue;
 	}
 
 	&--center {
 		margin: 0px;
 		text-align: center;
+	}
+
+	&--underline {
+		text-decoration: underline;
+	}
+
+	&--block {
+		display: block;
 	}
 	
 	@mixin atMedium {
@@ -30,6 +40,17 @@
 	
 	@mixin atLarge {
 		font-size: 3rem;
+	}
+	
+	&--small {
+		font-size: 1.3rem;
+		font-weight: 400;
+		padding-bottom: .2em;
+
+		@mixin atMedium {
+			font-size: 1.6rem;
+		}
+		
 	}
 
 	&--large {

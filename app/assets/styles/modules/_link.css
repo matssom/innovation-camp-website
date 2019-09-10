@@ -1,0 +1,29 @@
+/*
+ * ---------------------- Links ----------------------
+ */
+
+ .link {
+ 	text-decoration: underline;
+	color: $mainRed;
+	transition: all .1s linear;
+	
+	&:hover {
+		color: $mainBlue;
+		transition: all .1s linear;
+	}
+
+ 	&:visited {
+ 		color: $mainRed;
+ 	}
+
+ 	&--inverted {
+		color: $mainBlue;
+
+		&:hover {
+			color: $mainRed;
+			transition: all .1s linear;
+		}
+
+ 	}
+ 	
+ }

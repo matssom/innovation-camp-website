@@ -1,0 +1,14 @@
+/*
+ * ---------------------- Borders ----------------------
+ */
+
+ .border {
+
+	&--b-dashed {
+		border-bottom: 2px dashed $blackGray;
+	}
+
+	&--b-thick {
+		border-bottom: 10px solid $secondBlue;
+	} 	
+ }

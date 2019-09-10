@@ -10,6 +10,12 @@
 	}
 }
 
+@define-mixin atDesktopMenu {
+	@media (min-width: 690px) {
+		@mixin-content;
+	}
+}
+
 @define-mixin atMedium2 {
 	@media (min-width: 900px) {
 		@mixin-content;

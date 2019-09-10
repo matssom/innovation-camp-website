@@ -9,6 +9,10 @@
 		background-color: $mainRed;
 	}
 
+	&--dark {
+		background-color: $darkGray;
+	}
+
 	@mixin atMedium {
 		padding: 60px 0px;
 	}
