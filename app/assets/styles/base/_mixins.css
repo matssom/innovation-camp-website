@@ -22,6 +22,12 @@
 	}
 }
 
+@define-mixin atHuge {
+	@media (min-width: 1400px) {
+		@mixin-content;
+	}
+}
+
 @define-mixin clearfix {
 	&::after {
 		content: "";

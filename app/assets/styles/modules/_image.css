@@ -4,13 +4,18 @@
 
 .image {
 	width: 100%;
+	display: inline-block;
+	
+	&--block {
+		display: block;
+	}
 
 	&--w300 {
 		width: 100%;
 		height: auto;
 
 		@mixin atMedium2 {
-			width: 300px;
+			min-width: 300px;
 		}
 	}
 

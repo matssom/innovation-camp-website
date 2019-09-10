@@ -113,6 +113,31 @@
 
 	}
 
+	@mixin atHuge {
+
+		&__textbox {
+			bottom: 50%;
+			transform: translateY(50%);
+		}
+
+		&__heading-group {
+			
+		}
+
+		&__textbox-image {
+			
+		}
+		
+		&__heading {
+			
+		}
+
+		&__subheading {
+			
+		}
+
+	}
+
 	&--red-text {
 		color: $mainRed;
 	}
