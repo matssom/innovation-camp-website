@@ -1,15 +1,23 @@
+/*
+ * ---------------------- Wrapper ----------------------
+ */
+
 .flex {
 	display: flex;
 	justify-content: space-between;
+	
+	&--vertical-start {
+		align-items: center;	
+	}
 
 	&--vertical-center {
 		align-items: center;
 	}
 
-	&--column-at-small {
+	&--column-at-medium {
 		flex-wrap: wrap;
 
-		@mixin atMedium {
+		@mixin atMedium2 {
 			flex-wrap: nowrap;
 		}
 	}

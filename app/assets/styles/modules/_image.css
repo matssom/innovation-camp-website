@@ -1,3 +1,28 @@
+/*
+ * ---------------------- Image ----------------------
+ */
+
 .image {
 	width: 100%;
+
+	&--w300 {
+		width: 100%;
+		height: auto;
+
+		@mixin atMedium2 {
+			width: 300px;
+		}
+	}
+
+	&--l-margin {
+		margin-left: 0px;
+
+		@mixin atMedium2 {
+			margin-left: 60px;
+		}
+	}
+
+	&--no-stretch-on-flex {
+		align-self: center;	
+	}
 }

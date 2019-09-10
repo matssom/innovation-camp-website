@@ -1,5 +1,5 @@
 /*
- * Wrapper
+ * ---------------------- Wrapper ----------------------
  */
 
 .wrapper {
@@ -7,6 +7,14 @@
 	padding: 0px 18px;
 	margin-left: auto;
 	margin-right: auto;
+	
+	&--no-p-at-small {
+		padding: 0px;
+
+		@mixin atMedium {
+			padding: 0px 18px;
+		}
+	}
 
 	&--flex {
 		display: flex;

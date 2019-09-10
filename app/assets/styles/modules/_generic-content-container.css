@@ -1,19 +1,32 @@
 /*
- * Generic content container
+ * ---------------------- Generic Content Container ----------------------
  */
 
 .generic-content-container {
+	padding: 0px 18px;
 
 	p {
-		line-height: ;
+		line-height: 1.5em;
 		font-size: 1rem;
-		margin: ;
 		color: $darkGray;
 		font-family: 'Open Sans', sans-serif;
 	}
 
 	p a {
-		font-weight: ;
+		font-weight: 700;
+	}
+
+}
+
+.wrapper .generic-content-container {
+	padding: 0px;
+}
+
+.wrapper--no-p-at-small .generic-content-container {
+	padding: 0px 18px;
+
+	@mixin atMedium {
+		padding: 0px;
 	}
 
 }
