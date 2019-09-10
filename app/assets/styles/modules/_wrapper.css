@@ -14,6 +14,9 @@
 	}
 
 	&--large {
-		max-width: 1400px;
+		
+		@mixin atMedium {
+			max-width: 1400px;
+		}
 	}
 }
