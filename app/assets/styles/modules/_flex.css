@@ -5,4 +5,12 @@
 	&--vertical-center {
 		align-items: center;
 	}
+
+	&--column-at-small {
+		flex-wrap: wrap;
+
+		@mixin atMedium {
+			flex-wrap: nowrap;
+		}
+	}
 }
