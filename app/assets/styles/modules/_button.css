@@ -58,12 +58,25 @@
 		text-align: center;
 	}
 
+	&--rounded {
+		border-radius: 3px;
+	}
+
 	&--no-r-margin {
 		margin-right: 0px;
 	}
 
 	&--no-l-margin {
 		margin-left: 0px;
+	}
+
+	&--hidden-at-small {
+		display: none;
+
+		@mixin atMedium {
+			display: inline-block;
+		}
+
 	}
 
 	&--hidden-at-mobile-menu {
@@ -73,6 +86,14 @@
 			display: inline-block;
 		}
 
+	}
+
+	&--float-r-at-mobile-menu {
+		float: right;
+
+		@mixin atDesktopMenu {
+			float: none;
+		}
 	}
 
 	&--filled {

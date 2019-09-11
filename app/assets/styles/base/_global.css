@@ -1,5 +1,5 @@
 /* ----------------------------------------------------------------- */
-/* ------EVERYTHING WRITTEN BEYOND THIS POINT IS WRITTEN BY:-------- */
+/* ----------WRITEN BY:--------------------------------------------- */
 /* ----------------------------------------------------------------- */
 /* ----------Erik Sommer-------------------------------------------- */
 /* ----------Adrian Storset----------------------------------------- */
@@ -7,6 +7,7 @@
 /* ----------------------------------------------------------------- */
 
 /* We decided to use the BEM methodology for naming and selecting elements */
+/* because it creates flat, easy to understand html and css relations */
 /* Se more at: "https://en.bem.info/methodology/quick-start/" */
 
 /*
@@ -19,7 +20,8 @@
 
 body {
 	font-family: 'PT Sans Caption', 'Open Sans',sans-serif;
-	/* "margin 0px;" is handeled by the normalize.css library */
+	margin: 0px;
+	width: 100%;
 }
 
 img {
@@ -30,4 +32,8 @@ img {
 a {
 	color: black;
 	text-decoration: none;
+}
+
+.clearfix {
+	@mixin clearfix;
 }

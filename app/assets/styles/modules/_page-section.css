@@ -9,6 +9,10 @@
 		background-color: $mainRed;
 	}
 
+	&--gray {
+		background-color: $secondBlue;
+	}
+
 	&--dark {
 		background-color: $darkGray;
 	}
@@ -19,6 +23,19 @@
 
 	@mixin atLarge {
 		padding: 100px 0px;
+	}
+	
+	&--large {
+		padding: 60px 0px;
+
+		@mixin atMedium {
+			padding: 80px 0px;
+		}
+
+		@mixin atLarge {
+			padding: 100px 0px;
+		}
+
 	}
 
 	&--small {
@@ -32,5 +49,13 @@
 			padding: 60px 0px;
 		}
 
+	}
+
+	&--no-t-padding-at-medium {
+		padding-top: 0px;
+
+		@mixin atMedium2 {
+			padding: 30px 0px;
+		}
 	}
 }

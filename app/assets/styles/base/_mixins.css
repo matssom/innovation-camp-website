@@ -41,3 +41,18 @@
 		display: table;
 	}
 }
+
+@define-mixin negativeMargin {
+	&::after {
+		content: "";
+		margin-top: 0px;
+
+		@mixin atMedium2 {
+			margin-top: -200px;
+		}
+
+		@mixin atLarge {
+			margin-top: -100px;
+		}
+	}
+}

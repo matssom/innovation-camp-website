@@ -7,7 +7,10 @@
 	height: auto;
 	width: 100px;
 	margin: 0px 20px;
-
+	
+	&--float-l-at-mobile-menu {
+		float: left;
+	}
 
 	&__image {
 		height: 30px;

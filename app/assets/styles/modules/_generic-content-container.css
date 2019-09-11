@@ -30,3 +30,12 @@
 	}
 
 }
+
+.wrapper--no-p-at-medium .generic-content-container {
+	padding: 0px 18px;
+
+	@mixin atMedium2 {
+		padding: 0px;
+	}
+
+}

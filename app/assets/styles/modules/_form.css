@@ -1,0 +1,69 @@
+/*
+ * ---------------------- Form ----------------------
+ */
+
+ .form {
+ 	width: 100%;
+ 	background-color: $secondBlue;
+ 	background-image: linear-gradient($secondBlue, white);
+ 	padding: 25px;
+
+ 	&--floating {
+ 		position: static;
+
+ 		@mixin atMedium2 {
+			position: relative;
+ 			top: -100px;
+ 		}
+
+ 		@mixin atLarge {
+			position: relative;
+ 			top: -150px;
+ 		}
+ 	}
+
+ 	&__section {
+ 		margin-bottom: 20px;
+ 	}
+
+ 	&__label {
+ 		font-size: 1rem;
+ 		color: $darkGray;
+ 	}
+
+ 	&__input {
+ 		height: 35px;
+ 		line-height: 31px;
+ 		padding: 0px 10px;
+ 		width: 100%;
+ 		border-radius: 3px;
+ 		border: 2px solid $darkGray;
+ 		font-size: 1.2rem;
+ 	}
+
+ 	&__input:focus {
+		outline-style: solid;
+  		outline-color: $mainRed;
+  		outline-width: 3px;
+ 	}
+
+ 	&__input--text-area {
+ 		height: 200px;
+ 		width: 100%;
+ 		border-radius: 3px;
+ 		border: 2px solid $darkGray;
+ 		resize: none;
+ 		font-size: 1.2rem;
+ 		padding: 10px;
+ 	}
+
+ 	&__input--text-area:focus {
+
+ 	}
+
+ 	@mixin atMedium2 {
+		width: 100%;
+	 	border-radius: 3px;
+	 	padding: 40px;
+ 	}
+ }

@@ -16,9 +16,12 @@
 		}
 	}
 
-	&--flex {
-		display: flex;
-		justify-content: space-between;
+	&--no-p-at-medium {
+		padding: 0px;
+
+		@mixin atMedium2 {
+			padding: 0px 18px;
+		}
 	}
 
 	&--large {

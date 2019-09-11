@@ -8,6 +8,10 @@
 	font-weight: 700;
 	margin: 0px;
 	font-family: 'PT Sans Caption';
+	
+	&--margin {
+		margin: 20px 0px;
+	}
 
 	&--white {
 		color: white;
@@ -32,6 +36,10 @@
 
 	&--block {
 		display: block;
+	}
+
+	&--large-at-small {
+		font-size: 3rem;
 	}
 	
 	@mixin atMedium {
@@ -63,6 +71,9 @@
 		@mixin atLarge {
 			font-size: 6rem;
 		}
-		
+	}
+
+	&--b-margin {
+		margin-bottom: 30px;
 	}
 }

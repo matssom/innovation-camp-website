@@ -3,6 +3,42 @@
  */
 
  .column {
+	
+	&--6 {
+		width: 100%;
+
+		@mixin atMedium2 {
+			width: 50%;
+			display: inline-block;
+			float: left;
+
+			&:first-child {
+				padding-right: 40px;
+			}
+
+			&:last-child {
+				padding-left: 40px;
+			}
+		}
+	}
+
+	&--8 {
+		width: 100%;
+
+		@mixin atMedium2 {
+			width: 66.66%;
+			display: inline-block;
+			float: left;
+
+			&:first-child {
+				padding-right: 40px;
+			}
+
+			&:last-child {
+				padding-left: 40px;
+			}
+		}
+	}
 
 	&--4 {
 		width: 100%;

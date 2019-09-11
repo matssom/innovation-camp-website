@@ -6,8 +6,26 @@
 	width: 100%;
 	display: inline-block;
 	
+	&--center {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	&--right {
+		float: right;
+	}
+
 	&--block {
 		display: block;
+	}
+
+	&--w100 {
+		width: 50px;
+
+		@mixin atMedium2 {
+			width: 100px;
+		}
 	}
 
 	&--w300 {
@@ -24,6 +42,14 @@
 
 		@mixin atMedium2 {
 			margin-left: 60px;
+		}
+	}
+	
+	&--r-margin {
+		margin-right: 0px;
+
+		@mixin atMedium2 {
+			margin-right: 60px;
 		}
 	}
 

@@ -5,6 +5,18 @@
 .flex {
 	display: flex;
 	justify-content: space-between;
+	
+	&--no-flex-at-mobile-menu {
+		display: block;
+
+		@mixin atDesktopMenu {
+			display: flex;
+		}
+	}
+
+	&--wrap {
+		flex-wrap: wrap;
+	}
 
 	&--vertical-start {
 		align-items: center;	

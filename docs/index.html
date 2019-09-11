@@ -8,7 +8,8 @@
 	<title>Voice - Give children a voice</title>
 
 	<!-- Stylesheet link -->
-	<link rel="stylesheet" href="assets/styles/styles-e188286896.css"/>
+	<link rel="stylesheet" href="assets/styles/styles-b95325b83a.css"/>
+	<!-- The stylesheet link has random characters at the end to prevent caching -->
 
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&display=swap" rel="stylesheet">
@@ -21,15 +22,12 @@
 	<meta charset="utf-8">
 
 	<!-- SEO -->
-	<meta name="description" content="description">
-  	<meta name="keywords" content="keywords">
-  	<meta name="author" content="auhtor">
+	<meta name="description" content="A fictional website for a fictional non profit">
+  	<meta name="keywords" content="child, environment, childern, climate">
+  	<meta name="author" content="Erik Sommer, Adrian Storset, Mats Sommervold">
 
 	<!-- Optimizing device width for smaller devices -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- including vendor script -->
-	<script src="assets/scripts/Vendor-29c366c85e.js"></script>
 
 </head>
 
@@ -37,24 +35,30 @@
 	
 	<!-- Navigation Bar -->
 	<nav class="nav">
-		<div class="wrapper wrapper--flex">
-			<div class="logo logo--no-l-margin">
-				<img src="assets/images/icons/voice-logo--small.png" alt="Voice logo" class="logo__image">
+		<div class="wrapper flex">
+			<div class="logo logo--no-l-margin logo--float-l-at-mobile-menu">
+				<img src="assets/images/icons/voice-logo--small.png" alt="Voice logo" class="logo__image logo__image--vertical-center">
 			</div>
 			<div class="nav__links">
-				<div class="nav__link-el"><a class="nav__link nav__link--active" href="#">What</a></div>
-				<div class="nav__link-el"><a class="nav__link" href="how.html">How</a></div>
+				<div class="nav__link-el"><a class="nav__link nav__link--active" href="#">About us</a></div>
+				<div class="nav__link-el"><a class="nav__link" href="our-plan.html">Our plan</a></div>
 			</div>
-			<a class="button button--hidden-at-small button--no-r-margin" href="index.html">5. July</a>
-			<a class="button button--hidden-at-small button--no-r-margin button--filled" href="index.html">Contact</a>
-			<div class="nav__menu-icon">
-				<img src="assets/images/icons/menu-icon.png" alt="mobile menu icon" class="nav__menu-icon-img">
+			<div>
+				<a class="button button--hidden-at-small button--no-r-margin" href="#">5. July</a>
+				<a class="button button--no-r-margin button--filled" href="contact.html">Contact</a>
 			</div>
 		</div>
 	</nav>
 
+	<!-- Mobile Navigation -->
+	<div class="nav__mobile">
+		<a class="nav__link--mobile nav__link--active" href="#">About us</a>
+		<a class="nav__link--mobile" href="our-plan.html">Our plan</a>
+	</div>
+
 	<!-- Banner -->
 	<div class="banner">
+		<!-- Responsive image -->
 		<picture class="banner__img">
 			<source srcset="assets/images/banner--huge--low-dpi.jpg 1081w,
 							assets/images/banner--huge.jpg 2162w,
@@ -75,6 +79,7 @@
 					alt="Children looking at the camera. Photo by bennett tobias on Unsplash" 
 					class="image--block">
 		</picture>
+		<!-- End Responsive Image -->
 		<div class="wrapper wrapper--large">
 			<div class="banner__textbox">
 				<div class="flex flex--vertical-center">
@@ -87,16 +92,16 @@
 				</div>
 				<div class="flex flex--vertical-center">
 					<div></div>
-					<h2 class="banner__subheading"><strong>Every</strong> child has a right to be heard. Let's give them a <strong class="banner--red-text">microphone.</strong></h2>
+					<h2 class="banner__subheading"><strong>Every</strong> child has a right to be heard. Let's give them a <strong class="banner--red-text">voice.</strong></h2>
 				</div>
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- Date Display -->
 	<div class="page-section page-section--red page-section--small">
 		<div class="wrapper">
-			<h1 class="heading heading--inline heading--center heading--white heading--large">✱5. JULY✱</h1>
+			<a href="#" class="heading heading--block heading--center heading--white heading--large">✱5. JULY✱</a>
 		</div>
 	</div>
 	
@@ -114,6 +119,7 @@
                     <p>We will also run a tournament-style contest during the event. In this contest the goal is to have the best idea or solution regarding an environmental issue. Any of the attending children can be a contestant, and the contestants compete by presenting their idea in front of jury and/or an audience. The best in the locals will move on to nationals and then internationals and finally to the finals.</p>
                     <p><strong>The winner and runner-ups will all recieve an oppurtunity to make their idea a reality.</strong></p>
 				</div>
+				<!-- Responsive image -->
 				<picture class="image image--l-margin image--no-stretch-on-flex">
 					<source srcset="assets/images/teen--large--low-dpi.jpg 468w,
 									assets/images/teen--large.jpg 936w" 
@@ -129,12 +135,100 @@
 							alt="A teen looking at the camera" 
 							class="image image--w300">
 				</picture>
+				<!-- End Responsive image -->
+			</div>
+		</div>
+	</div>
+	
+	<!-- Partners -->
+	<div class="page-section page-section--gray page-section--large border--b-thick-blue">
+		<div class="wrapper">
+			<h1 class="heading heading--large-at-small heading--center heading--b-margin">Our <span class="heading--red">Partners</span></h1>
+			<div class="flex flex--wrap flex--vertical-center">
+				<img src="assets/images/icons/google-logo.png" alt="Google Logo" class="sponsor">
+				<img src="assets/images/icons/oslo-met-logo.png" alt="Oslomet Logo" class="sponsor">
+				<img src="assets/images/icons/apple-logo.png" alt="Apple Logo" class="sponsor">
+				<img src="assets/images/icons/redd-barna-logo.png" alt="Google Logo" class="sponsor">
+			</div>
+		</div>
+	</div>
+
+	<div class="page-section">
+		<div class="wrapper wrapper--no-p-at-small">
+			<div class="column">
+				<!-- Responsive image -->
+				<picture class="image column--4">
+					<source srcset="assets/images/crowd--large--low-dpi.jpg 356w,
+									assets/images/crowd--large.jpg 712w" 
+							media=" (min-width: 900px)">
+					<img 	sizes=" (max-width: 599px) 100vw,
+									(min-width: 600px) 100vw,
+									(min-width: 900px) 35vw"
+							srcset="assets/images/crowd--small--low-dpi.jpg 526w, 
+									assets/images/crowd--small.jpg 1051w" 
+							alt="A crowd waving"
+							class="image">
+				</picture>
+				<!-- End Responsive image -->
+				<div class="column--8">
+					<div class="generic-content-container">
+						<h1 class="heading heading--margin">Childrens Environment <span class="heading--red">Day</span></h1>
+						<p>The day for our thought out day is 5th of June every year. This is also the
+						internasjonal "World Environment Day". </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto eveniet, eligendi expedita error consequuntur animi quis facere accusantium. Nobis, voluptatum, illum! Maxime, optio. Placeat quia rem quo fugit accusantium.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
     
-	<!-- Including scripts -->
-	<script src="assets/scripts/App-f520e06767.js"></script>
+	<!-- Footer -->
+	<footer class="footer page-section page-section--dark">
+		<div class="wrapper">
+			<div class="column">
+				<div class="footer__section column--4">
+					<!--<h2 class="heading heading--small heading--second-blue border--b-dashed heading--center">Voice</h2>-->
+					<div style="margin-bottom: 1px;" class="logo logo--center">
+						<img src="assets/images/icons/voice-logo--inverted--small.png" alt="Voice logo" class="logo__image">
+					</div>
+					<div class="border--b-dashed"></div>
+					<a class="button button--expand button--no-l-margin button--red" href="index.html">5. July</a>
+					<div class="footer__group">
+						<p class="footer__text--block"><strong>Created by:</strong></p>
+						<p class="footer__text--block">- Erik Sommer</p>
+						<p class="footer__text--block">- Adrian Storset</p>
+						<p class="footer__text--block">- Mats Sommervold</p>
+					</div>
+				</div>
+				<div class="footer__section column--4">
+					<h2 class="heading heading--small heading--second-blue border--b-dashed heading--center">Contact</h2>
+					<div class="footer__group footer__group--clearfix">
+						<img src="assets/images/icons/email-icon.png" alt="Paper Plane Icon" class="icon">
+						<p class="footer__text">voiceteam@voice.com</p>
+					</div>
+					<div class="footer__group footer__group--clearfix">
+						<img src="assets/images/icons/phone-icon.png" alt="Phone Icon" class="icon">
+						<p class="footer__text">+47 999 99 999</p>	
+					</div>
+				</div>
+				<div class="footer__section column--4">
+					<h2 class="heading heading--small heading--second-blue border--b-dashed heading--center">Social</h2>
+					<div class="footer__group footer__group--clearfix">
+						<a href="#"><img src="assets/images/icons/facebook-icon.png" alt="Facebook Icon" class="icon"></a>
+						<a class="footer__text link link--inverted" href="#">Facebook</a>
+					</div>
+					<div class="footer__group footer__group--clearfix">
+						<a href="#"><img src="assets/images/icons/instagram-icon.png" alt="Instagram Icon" class="icon"></a>
+						<a class="footer__text link link--inverted" href="#">Instagram</a>
+					</div>
+					<div class="footer__group footer__group--clearfix">
+						<a href="#"><img src="assets/images/icons/twitter-icon.png" alt="Twitter Icon" class="icon"></a>
+						<a class="footer__text link link--inverted" href="#">Twitter</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 </body>
 

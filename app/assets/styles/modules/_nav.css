@@ -8,6 +8,7 @@
 	width: 100%;
 	position: fixed;
 	z-index: 1;
+	border-bottom: 1px solid $secondBlue;
 
 	&__links {
 		display: none;
@@ -28,7 +29,6 @@
 		padding: 0px 16px;
 		line-height: 70px;
 		transition: all .1s linear;
-
 	}
 
 	&__link:hover {
@@ -39,26 +39,52 @@
 
 	&__link--active {
 		color: $mainRed;
-		text-decoration: none;
-
 	}
 
-	&__menu-icon {
-		height: 70px;
+	&__mobile {
+		font-size: 1.25rem;
+		width: 100%;
+		bottom: 0px;
+		position: fixed;
+		z-index: 1;
+		background-color: white;
+		border-top: 1px solid $secondBlue;
+	}
+
+	&__link--mobile {
 		display: inline-block;
-		float: right;
+		height: 70px;
+		width: 50%;
+		transition: all .1s linear;
+		line-height: 70px;
+		text-align: center;
+		font-weight: 700;
+
+		&:last-child {
+			margin-left: -6px;
+		}
 	}
 
-	&__menu-icon-img {
-		height: 30px;
-		width: auto;
-		position: relative;
-		top: 50%;
-		transform: translateY(-50%);
+	&__link--mobile:hover {
+		color: $mainRed;
+		text-decoration: none;
+		transition: all .1s linear;
 	}
 
 	@mixin atDesktopMenu {
 		
+		&__mobile {
+			display: none;
+		}
+
+		&__links--mobile {
+			display: none;
+		}
+
+		&__link--mobile {
+			display: none;
+		}
+
 		&__links {
 			display: inline-block;
 			margin: 0px auto;
