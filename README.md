@@ -1,7 +1,7 @@
 **Auhtor: Mats Sommervold**
 
 ### This website can be found live at:
-[http://student.cs.hioa.no/~s341829/Introduction%20Week%20Website/index.html](student.cs.hioa.no/~s341829/)
+[http://student.cs.hioa.no/~s341829/Introduction%20Week%20Website/index.html](http://student.cs.hioa.no/~s341829/Introduction%20Week%20Website/index.html)
 
 ## How to setup development environment (One time per computer)
 1.  Download and install the version controll system 'git' and select "use git from command-line": https://git-scm.com/downloads
