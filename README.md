@@ -1,4 +1,4 @@
-**Auhtor: Mats Sommervold**
+**Auhtor: Mats Sommervold & Erik Sommer**
 
 ### This website can be found live at:
 [http://student.cs.hioa.no/~s341829/Introduction%20Week%20Website/index.html](http://student.cs.hioa.no/~s341829/Introduction%20Week%20Website/index.html)
